@@ -1,0 +1,114 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    background-color: #121212; /* Dark background */
+    color: #f5f5f5; /* Light text */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Register container */
+.register-container {
+    background-color: #1a1a1a; /* Darker background for container */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    width: 90%;
+    max-width: 400px;
+}
+
+/* Heading */
+h2 {
+    color: #FFEB3B; /* Yellow color for the heading */
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Input styling */
+input[type="text"] {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #FFEB3B; /* Yellow border */
+    border-radius: 5px;
+    background-color: #333;
+    color: #f5f5f5;
+}
+
+/* Camera container */
+.camera-container {
+    position: relative;
+    margin: 20px 0;
+}
+
+/* Video element */
+#video {
+    width: 100%;
+    height: auto;
+    border: 1px solid #FFEB3B;
+    border-radius: 5px;
+}
+
+/* Capture button styling */
+#capture-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: #FFEB3B;
+    border: none;
+    border-radius: 5px;
+    color: #121212;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#capture-button:hover {
+    background-color: #FFD700; /* Lighter yellow on hover */
+}
+
+/* Canvas styling */
+#canvas {
+    display: none;
+    border: 1px solid #FFEB3B;
+    border-radius: 5px;
+}
+
+/* Submit button styling */
+button[type="submit"] {
+    padding: 12px 20px;
+    margin-top: 20px;
+    background-color: #FFEB3B;
+    border: none;
+    border-radius: 5px;
+    color: #121212;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #FFD700;
+}
+
+/* Message container */
+#message {
+    margin-top: 20px;
+    color: #FFEB3B;
+}
